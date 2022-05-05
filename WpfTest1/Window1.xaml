@@ -8,7 +8,7 @@
         Title="Window1" Height="160" Width="400">
     <Grid>
         <Button x:Name="Button1" Content="ボタン1" HorizontalAlignment="Left" Height="22" Margin="20,40,0,0" VerticalAlignment="Top" Width="53" Click="Button1_Click"/>
-        <Label x:Name="Label1" Content="今日の日付" HorizontalAlignment="Left" Height="22" Margin="91,40,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label x:Name="Label1" Content="今日の日付!" HorizontalAlignment="Left" Height="22" Margin="91,40,0,0" VerticalAlignment="Top" Width="70"/>
         <Label x:Name="Label2" Content="今日の日付" HorizontalAlignment="Left" Height="22" Margin="201,40,0,0" VerticalAlignment="Top" Width="70"/>
 
     </Grid>
