@@ -4,6 +4,9 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <RootNamespace>WpfTest1</RootNamespace>
     <UseWPF>true</UseWPF>
+    <StartupObject>Sub Main</StartupObject>
+    <OutputType>Exe</OutputType>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
 
   <ItemGroup>
