@@ -31,14 +31,7 @@
     </StackPanel>
 
     <StackPanel Grid.Row="1" Orientation="Horizontal">
-        <Button
-                Width="85"
-                Margin="10"
-                Command="{Binding ExecuteCommand, Mode=OneTime}"
-                Content="実行"
-                IsDefault="True"
-                Style="{StaticResource AccentButtonStyle}" />
-        <Button
+            <Button
                 Width="85"
                 Margin="10"
                 Command="{Binding CancelCommand, Mode=OneTime}"
