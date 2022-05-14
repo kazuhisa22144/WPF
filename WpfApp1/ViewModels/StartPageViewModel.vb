@@ -6,7 +6,7 @@
             Return _message
         End Get
         Set(value As String)
-            _message = SetProperty(ref _message, value)
+            '_message = SetProperty(ref _message, value)
         End Set
     End Property
 
