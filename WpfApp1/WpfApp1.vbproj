@@ -78,18 +78,11 @@
     <Compile Include="Views\ChainView.xaml.vb">
       <DependentUpon>ChainView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\MainWindow.xaml.vb">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Application.xaml.vb">
       <DependentUpon>Application.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Views\ChainView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\MainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
